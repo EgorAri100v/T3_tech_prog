@@ -1,0 +1,78 @@
+﻿  Commands.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric(34,26): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Egor Aristov\Desktop\Политех\2 сем\Технологии программирования\T3\tech_prog_T3\tech_prog_T3\Commands.cpp(126,15): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Polygon>>>,int,cmd::count::<lambda_4>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Polygon>>>,
+              _Fn=cmd::count::<lambda_4>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(1762,98): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional(684,21): message : see reference to function template instantiation 'bool std::invoke<_Cv_FD&,unsigned __int64,unsigned __int64>(_Callable,_Ty1 &&,unsigned __int64 &&) noexcept' being compiled
+          with
+          [
+              _Cv_FD=std::greater<int>,
+              _Callable=std::greater<int> &,
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional(1993,32): message : see reference to function template instantiation 'bool std::_Invoker_ret<std::_Unforced>::_Call<_Cv_FD&,unsigned __int64,unsigned __int64>(_Fx,unsigned __int64 &&,unsigned __int64 &&) noexcept' being compiled
+          with
+          [
+              _Cv_FD=std::greater<int>,
+              _Fx=std::greater<int> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional(2030,16): message : see reference to function template instantiation 'bool std::_Call_binder<std::_Unforced,0,1,_Ty1,_Ty2,std::tuple<const Polygon &,const Polygon &>>(std::_Invoker_ret<std::_Unforced>,std::integer_sequence<size_t,0,1>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty1=std::greater<int>,
+              _Ty2=std::tuple<std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>,
+              _Cv_FD=std::greater<int>,
+              _Cv_tuple_TiD=std::tuple<std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>,
+              _Untuple=std::tuple<const Polygon &,const Polygon &>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(547,20): message : see reference to function template instantiation 'bool std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>::operator ()<const Polygon&,const Polygon&>(const Polygon &,const Polygon &) noexcept(false)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1352,5): message : see reference to function template instantiation 'bool std::_Ref_fn<_Pr>::operator ()<const Polygon&,const Polygon&>(const Polygon &,const Polygon &)' being compiled
+          with
+          [
+              _Pr=std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6667,17): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,const Polygon&,const Polygon&,0>(std::_Ref_fn<std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>>&,_Ty1,_Ty2) noexcept(false)' being compiled
+          with
+          [
+              _Pr=std::_Ref_fn<std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>>,
+              _Ty1=const Polygon &,
+              _Ty2=const Polygon &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6679,32): message : see reference to function template instantiation '_FwdIt *std::_Max_element_unchecked<const Polygon*,std::_Ref_fn<_Pr>>(_FwdIt,_FwdIt,std::_Ref_fn<_Pr>)' being compiled
+          with
+          [
+              _FwdIt=const Polygon *,
+              _Pr=std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>
+          ]
+C:\Users\Egor Aristov\Desktop\Политех\2 сем\Технологии программирования\T3\tech_prog_T3\tech_prog_T3\Commands.cpp(239,15): message : see reference to function template instantiation '_FwdIt std::max_element<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>>(_FwdIt,_FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Polygon>>>,
+              _Ty=Polygon,
+              _Pr=std::_Binder<std::_Unforced,std::greater<int>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<1> &>>,std::_Binder<std::_Unforced,unsigned __int64 (__cdecl std::vector<Point,std::allocator<Point>>::* )(void) const,std::_Binder<std::_Unforced,std::vector<Point,std::allocator<Point>> Polygon::* ,const std::_Ph<2> &>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(1762,67): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  InputFormatters.cpp
+  main.cpp
+  Point.cpp
+  Polygon.cpp
+  StreamGuard.cpp
+  Generating Code...
+  tech_prog_T3.vcxproj -> C:\Users\Egor Aristov\Desktop\Политех\2 сем\Технологии программирования\T3\tech_prog_T3\x64\Debug\tech_prog_T3.exe
